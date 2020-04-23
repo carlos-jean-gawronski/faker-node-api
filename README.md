@@ -1,23 +1,32 @@
-# Adonis API application
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/carlos-jean-gawronski/faker-node-api">
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/carlos-jean-gawronski/faker-node-api">
+  
+  <a href="https://github.com/carlos-jean-gawronski/faker-node-api/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/carlos-jean-gawronski/faker-node-api">
+  </a>
 
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
+  <a href="https://github.com/carlos-jean-gawronski/faker-node-api/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/carlos-jean-gawronski/faker-node-api">
+  </a>
+</p>
 
 ## Setup
 
-Use the adonis command to install the blueprint
+To setup the enviroment to use this project for testing is quite simple. You sould only follow the steps bellow.
 
 ```bash
-adonis new yardstick --api-only
+adonis key:generate
+
+yarn install
 ```
 
-or manually clone the repo and then run `npm install`.
+Optionally, you can use npm to make the repository dependencies installation. However, you'll need to delete the `yarn.lock` and `yarn-error.log` files not to have conflicts between locks files.
 
+```bash
+npm install
+```
 
 ### Migrations
 
