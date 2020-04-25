@@ -1,4 +1,8 @@
 <p align="center">
+  <h1>Faker Node API</h1>
+</p>
+
+<p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/carlos-jean-gawronski/faker-node-api">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/carlos-jean-gawronski/faker-node-api">

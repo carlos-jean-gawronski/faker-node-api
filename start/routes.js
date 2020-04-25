@@ -23,3 +23,5 @@ Route.put("/user/:id", "UserController.update").middleware("auth");
 Route.delete("/user/:id", "UserController.delete").middleware("auth");
 
 Route.post("/session", "SessionController.create");
+
+Route.resource("posts", "PostController").apiOnly().middleware("auth");
