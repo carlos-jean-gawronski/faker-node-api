@@ -2,7 +2,7 @@
   "name": "adonis-api-app",
   "version": "4.1.0",
   "adonis-version": "4.1.0",
-  "description": "Faker api built with AdonisJS to use in front-end applications with JWT",
+  "description": "Faker api built with AdonisJS to use in many types of applications with JWT",
   "main": "index.js",
   "husky": {
     "hooks": {
